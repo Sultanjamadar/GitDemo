@@ -1,0 +1,13 @@
+$ git init
+
+
+$ git config --global user.name sultan
+
+
+$ git config --global user.email jamadar859@gmail.com
+
+
+$ git commit -m "initial commit"
+
+//to check files in staging area
+$ git diff --staged
