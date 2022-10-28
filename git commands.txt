@@ -11,3 +11,13 @@ $ git commit -m "initial commit"
 
 //to check files in staging area
 $ git diff --staged
+
+ 
+$ git remote add origin git@github.com:Sultanjamadar/GitDemo.git
+
+
+//key generation
+$ ssh-keygen -t ed25519 -C "jamadar859@gmail.com"
+
+//push
+$ git push -u origin dev
